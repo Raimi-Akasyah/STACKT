@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stackt">
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/stackt"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stackt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.STACKT">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBYuVL_H2-oRPIbaBFv5OvKK-2WMr5dT1w" />
+
+        <activity android:name=".ProfileActivity" android:exported="false" />
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".GeolocationActivity" android:exported="false" />
+        <activity android:name=".OCRActivity" android:exported="false" />
+        <activity android:name=".ExpenseHistoryDetailActivity" android:exported="false" />
+        <activity android:name=".MonitoredExpenseDetailActivity" android:exported="false" />
+        <activity android:name=".MonitoringLoginActivity" android:exported="false" />
+        <activity android:name=".NotificationActivity" android:exported="false" />
+        <activity android:name=".VerificationActivity" android:exported="false" />
+        <activity android:name=".MonitorsListActivity" android:exported="false"/>
+        <activity android:name=".MultiMonitoringActivity" android:exported="false"/>
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.stackt.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

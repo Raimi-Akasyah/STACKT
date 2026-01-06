@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "761092223705",
+    "firebase_url": "https://stackt-e5017-default-rtdb.firebaseio.com",
+    "project_id": "stackt-e5017",
+    "storage_bucket": "stackt-e5017.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761092223705:android:fe49442b30b9d2f5d8c4c8",
+        "android_client_info": {
+          "package_name": "com.example.stackt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC71ebE0yQVSgzetl6qZmWCXh5DYeae1Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

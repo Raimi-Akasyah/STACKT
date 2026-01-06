@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">STACKT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="geo_track">Geo-track</string>
+    <string name="search_for_a_location">Search for a location...</string>
+    <string name="edit_expenses_by_category">Edit Expenses by Category</string>
+    <string name="food_amp_beverage">Food &amp; Beverage</string>
+    <string name="balance_rm_0">Balance: RM 0</string>
+    <string name="essential_goods">Essential Goods</string>
+    <string name="education">Education</string>
+    <string name="technology">Technology</string>
+    <string name="clothing">Clothing</string>
+    <string name="health_amp_personal_care">Health &amp; Personal Care</string>
+    <string name="back_button_description">Back button</string>
+    <string name="notification_button_description">Notification button</string>
+    <string name="food_icon_description">Food icon</string>
+    <string name="essential_icon_description">Essential icon</string>
+    <string name="education_icon_description">Education icon</string>
+    <string name="technology_icon_description">Technology icon</string>
+    <string name="clothing_icon_description">Clothing icon</string>
+    <string name="health_icon_description">Health icon</string>
+    <string name="profile">Profile</string>
+    <string name="hi_user">Hi, User</string>
+    <string name="notifications">Notifications</string>
+    <string name="balance">Balance</string>
+    <string name="rm0_00">RM0.00</string>
+    <string name="expense">Expense</string>
+    <string name="spending_breakdown">Spending Breakdown</string>
+    <string name="expense_history">Expense Overview</string>
+    <string name="no_transaction">No Transaction</string>
+    <string name="back">Back</string>
+    <string name="ocr_scanner">OCR Scanner</string>
+    <string name="information">Information</string>
+    <string name="receipt_preview">Receipt preview</string>
+    <string name="camera_helper_text">Tap to open camera</string>
+    <string name="store_name">Store Name</string>
+    <string name="date">Date</string>
+    <string name="total">Total</string>
+    <string name="expense_category_prompt">Expense Category</string>
+    <string name="save_receipt">Save Receipt</string>
+    <string name="view_scanned_receipts">View Scanned Receipts</string>
+    <string name="edit_balance">Edit Balance</string>
+    <string name="category_history">%s History</string>
+    <string name="no_data_available">No data available</string>
+    <string name="unknown_month">Unknown Month</string>
+</resources>
