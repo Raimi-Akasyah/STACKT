@@ -1,45 +1,37 @@
-STACKT 📱💼
-STACKT is a comprehensive financial tracking Android application that simplifies expense management through automation and real-time monitoring.
+# STACKT 📱🏦
 
-🌟 Key Features
-🔍 AI-Powered Receipt Scanner
-Automated Data Extraction: Uses the TabScanner API to automatically extract store names, transaction dates, and total amounts from physical receipts.
+**STACKT** is an advanced Android financial management application designed to simplify expense tracking through automation. It combines AI-powered receipt scanning, geolocation-based spending insights, and a unique multi-user monitoring system.
 
-Camera Integration: Capture receipt images directly within the app or upload existing ones.
+---
 
-Category Tagging: Organize expenses into categories like Food & Beverage, Technology, and Health & Personal Care.
+## 🌟 Key Features
 
-📍 Smart Geolocation Services
-Location-Based Prompting: Integrated with Google Maps API and Fused Location Provider to track where you spend.
+### 🔍 AI Receipt Scanner (OCR)
+* **Automated Data Entry**: Uses the **TabScanner API** to scan physical receipts and extract the store name, transaction date, and total amount.
+* **Smart Categorization**: Organizes expenses into pre-defined categories like *Food & Beverage*, *Technology*, and *Essential Goods*.
+* **Camera Integration**: Supports direct camera capture and gallery uploads.
 
-Budget Awareness: View your category-specific balances in real-time while navigating different locations.
+### 📍 Geolocation & Mapping
+* **Spending Locations**: Integrated with **Google Maps SDK** to visualize where your money is being spent.
+* **Proximity Alerts**: Uses `FusedLocationProvider` to track your location and provide real-time budget status when you are near shopping areas.
+* **Interactive Markers**: Plot store locations directly on a map interface.
 
-Interactive Maps: Visualize spending patterns and store locations directly on a map.
+### 👥 Multi-Monitoring Module
+* **Collaborative Finance**: Request permission to monitor another user's spending (ideal for families or partners).
+* **Privacy First**: Features a secure **Request-Approval-Deny** workflow powered by Firebase.
+* **Visual Analytics**: View a monitored user's data through dynamic **Pie Charts** (MPAndroidChart) and detailed transaction lists.
 
-👥 Multi-Monitoring Module
-Shared Oversight: Request access to monitor another user's spending habits via their email.
+---
 
-Permission-Based Access: Includes an approval/denial workflow to ensure privacy and security.
+## 🛠️ Tech Stack
 
-Switchable Targets: Seamlessly switch between multiple monitored users using a dedicated dashboard.
-
-Real-time Analytics: View monitored users' spending data through interactive Pie Charts powered by MPAndroidChart.
-
-🛠️ Tech Stack
-Language: Java
-
-Backend: Firebase (Firestore for real-time data, Firebase Auth for security)
-
-APIs:
-
-TabScanner: OCR receipt processing
-
-Google Maps & Location Services: Geolocation and mapping
-
-Libraries:
-
-MPAndroidChart: Data visualization
-
-OkHttp: Robust network requests for API communication
-
-Material Design: Professional UI components and Bottom Navigation
+- **Language**: Java
+- **Database**: Firebase Cloud Firestore (Real-time data)
+- **Auth**: Firebase Authentication
+- **APIs**: 
+  - Google Maps & Places API
+  - TabScanner OCR API
+- **Libraries**:
+  - `MPAndroidChart` (Data Visualization)
+  - `OkHttp` (API Networking)
+  - `Material Design` (UI Components)
